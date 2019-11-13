@@ -13,12 +13,14 @@ Images are currently local references. If you want to load the image from a CDN 
 - Component driven design. Copy and paste provided code blocks to add different components.
 
 ## How to Use
-1. Click the green Clone or Download button and select the Download ZIP button.
+1. Click the green **Clone or Download** button and select the **Download ZIP** button.
 2. Change the header image.
 3. Change the footer image.
 4. Change the body copy.
 5. If you're using Campaign Monitor
-6. Text
+- Test
+6. If you're using Mail Chimp
+- Test
 
 ### OPTIONAL
 - Add hidden preview text
