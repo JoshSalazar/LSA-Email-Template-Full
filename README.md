@@ -56,6 +56,25 @@ Images are currently local references. If you want to load the image from a CDN 
     
 ```
 
+## Components
+Button
+```
+<!-- Button : BEGIN -->
+<tr>
+   <td style="padding: 20px 20px">
+      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+         <tr>
+            <td class="button-td button-td-primary" style="border-radius: 4px; background: #007CBA;">
+               <a class="button-a button-a-primary" href="https://google.com/" style="background: #007CBA; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">
+               </a>
+            </td>
+         </tr>
+      </table>
+   </td>
+</tr>
+<!-- Button : END -->
+```
+
 ## Changelog
 ### v1.0
 - Initial file creation. Modified Cerberus fluid email template to coincide with LSA marketing and branding standards. Inbox tested and fully vetted.
