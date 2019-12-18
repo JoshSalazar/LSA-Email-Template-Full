@@ -18,16 +18,7 @@ Images are currently local references. If you want to load the image from a CDN 
 3. Change the footer image.
 4. Change the body copy.
 5. If you're using Campaign Monitor
-- Test
-6. If you're using Mail Chimp
-- Test
-
-### OPTIONAL
-- Add hidden preview text
-
-## Changelog
-### v1.0
-- Initial file creation. Modified Cerberus fluid email template to coincide with LSA marketing and branding standards. Inbox tested and fully vetted.
+- Use this footer code to include the unsubscribe
 
 ```
 <!-- Campaign Monitor Footer Text : BEGIN -->
@@ -41,3 +32,15 @@ Images are currently local references. If you want to load the image from a CDN 
 </table>
 <!-- Campaign Monitor Footer Text : END -->
 ```
+
+6. If you're using Mail Chimp
+- Test
+
+### OPTIONAL
+- Add hidden preview text
+
+## Changelog
+### v1.0
+- Initial file creation. Modified Cerberus fluid email template to coincide with LSA marketing and branding standards. Inbox tested and fully vetted.
+
+
