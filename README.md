@@ -57,7 +57,7 @@ Images are currently local references. If you want to load the image from a CDN 
 ```
 
 ## Components
-Button
+Button: There should only be one button in the email. This button should be the primary call to action.
 ```
 <!-- Button : BEGIN -->
 <tr>
