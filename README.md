@@ -21,16 +21,19 @@ Images are currently local references. If you want to load the image from a CDN 
 - Use this footer code to include the unsubscribe
 
 ```
-<!-- Campaign Monitor Footer Text : BEGIN -->
-<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
-  <tr>
-    <td style="padding: 20px; font-family: sans-serif; font-size: 12px; line-height: 15px; text-align: center; color: #ccc;">
-      <webversion style="text-decoration: underline;">View as a web page</webversion> |
-      <unsubscribe style="text-decoration: underline;">Unsubscribe</unsubscribe>
-    </td>
-  </tr>
-</table>
-<!-- Campaign Monitor Footer Text : END -->
+<!-- Unsubscribe Footer : BEGIN -->
+      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+        <tr>
+          <td style="padding: 20px; font-family: sans-serif; font-size: 12px; line-height: 15px; text-align: center; color: #888888;">
+            <unsubscribe style="color: #cccccc; text-decoration: underline; font-weight: bold;">Unsubscribe</unsubscribe>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <webversion style="color: #cccccc; text-decoration: underline; font-weight: bold;">View as a Web Page</webversion>
+            <br>
+            <br>
+          </td>
+        </tr>
+      </table>
+<!-- Unsubscribe Footer : END -->
 ```
 
 6. If you're using Mail Chimp
