@@ -3,7 +3,7 @@ This is the single-column email communication template provided by the College o
 
 This file requires some basic HTML knowledge in order to use. At the very least, you will need to provide a header image, footer image, and body copy in the HTML code.
 
-Images are currently local references. If you want to load the image from a CDN (our web drive, for example) you will need to provide the image href properties.
+Images are currently local references. If you want to load the image from a CDN (our web drive, for example) you will need to provide the proper image href properties.
 
 ## Features
 - Single-column layout.
@@ -40,7 +40,7 @@ Images are currently local references. If you want to load the image from a CDN 
 - Test
 
 ### OPTIONAL
-- Add hidden preview text
+- Add hidden preview text. This text will show up after the subject line in the inbox. It's a good place to add teaser text to encourage the recipient to open the email. 
 
 ```
 <!-- Visually Hidden Preview Text : BEGIN -->
