@@ -16,7 +16,7 @@ For design guidelines, refer to the [Style Guide](#style-guide). **Any component
     3. 
 
 
-
+[Template Preview](images/Template-Preview.png)
 
 ## Features
 - Single-column layout.
