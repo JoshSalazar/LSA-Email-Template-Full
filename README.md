@@ -153,6 +153,19 @@ Though this code technically lives in the HTML, it is coded in such a way that r
 <!-- Preview Text Spacing : END -->
 ```
 
+### Full-Width Image
+
+```
+<!-- Full-width Image : BEGIN -->
+<tr>
+  <td style="padding: 0 20px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 22px; color: #333333;">
+    <img src="images/full-width-image.png" width="600" height="auto" alt="Dean Anne Curzan in a library, overlay text reads Happy Holidays."
+                      border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 16px; line-height: 15px; color: #555555; display: block; margin-bottom: 20px;" class="g-img">
+  </td>
+</tr>
+<!-- Full-width Image : END -->
+```
+
 ### Header Image
 The header image is constrained to 600px wide. It is recommended the image itself is 1000px - 1200px wide. This makes the image more crsip once scaled down to 600px.
 
