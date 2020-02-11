@@ -7,6 +7,8 @@ Images are currently local references. If you want to load the image from a CDN 
 
 For design guidelines, refer to the [Style Guide](#style-guide). **Any components not included in this template will require custom development. Please work with the developer and project manager to plan for this prior to designing**.
 
+View a preview of the template here: **[Template Preview](http://webapps.lsa.umich.edu/project/lsa-email/LSA-Email-Template/LSA-Email-Communication-Template-V1-0.html)**
+
 ## Table of Contents
 1. **[Features](#features)**
 2. [**How To Use**](#how-to-use)
@@ -16,7 +18,7 @@ For design guidelines, refer to the [Style Guide](#style-guide). **Any component
     3. 
 
 
-[Template Preview](Images/Template-Preview.png)
+
 
 ## Features
 - Single-column layout.
