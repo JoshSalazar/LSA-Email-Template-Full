@@ -78,7 +78,10 @@ The use of text character emojis is allowed in HTML emails. To access the list o
 
 > *Accessibility* - For Accessibility do not use emojis alone to convey information. Ask yourself "if this emoji didn't exist, is the purpose of the message still getting through?" If not, don't use an emoji. Emojis add flavor. A bad example of using an emoji would be "Welcome to the new LSA 🏛!" where the building emoji is replacing the word "building. A good example of using an emoji would be "Welcome to the new LSA Building 🏛!"
 
+### Motion
+HTML emails support .gif image format. View this [live example](http://webapps.lsa.umich.edu/project/lsa-email/2020/200028G-LSA-Building-Opening-Email/[TEST%203]%20200028G-LSA-Building-Opening-Email.html) of a .gif animation in a header.
 
+.gifs are best if subtle and not overused.
 
 ## Components
 
