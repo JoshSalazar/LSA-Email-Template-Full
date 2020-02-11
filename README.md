@@ -58,8 +58,25 @@ Images are currently local references. If you want to load the image from a CDN 
 <!-- Preview Text Spacing : END -->    
 ```
 
+## Style Guide
+### Color
+All colors should use the approved [LSA color palette](https://codepen.io/joshsalazar/pen/ZVLqrR).
+
+The background is UMich Blue (#00274C).
+
+Links are LSA Cyan (#007cba) and dotted underlined.
+
+Body copy is Web Grey 1 (#333333).
+
+### Typography
+Body copy is the serif font Georgia with a minimum of 16px. Refer to the [Paragraphs](#Paragraphs) section for CSS code reference.
+
+Salutations are 18px, bold, and italicized.
+
+
 ## Components
-Button: There should only be one button in the email. This button should be the primary call to action.
+
+### Button: There should only be one button in the email. This button should be the primary call to action.
 ```
 <!-- Button : BEGIN -->
 <tr>
@@ -76,6 +93,31 @@ Button: There should only be one button in the email. This button should be the 
 </tr>
 <!-- Button : END -->
 ```
+
+### Paragraphs:
+```
+<!-- Paragraphs : BEGIN -->
+              <tr>
+                <td style="padding: 20px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 24px; color: #333333;">
+                  <p style="margin: 0;">
+                    <strong style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 18px; line-height:24px;"><em>Greetings,</em></strong>
+                    <br />
+                    <br />
+                    This is <strong>version 1.0</strong> of the fluid email template provided by the College of Literature, Science, and the Arts Marketing and Communications department. This template is intended for single-column email
+                    communications. This template is not designed to leverage multiple columns.
+                    <br />
+                    <br />
+                    Each paragraph should be broken up by two linebreak tags. <a href="#" style="color: #007CBA; text-decoration: none; border-bottom: dotted; border-width: 1px; border-color: #007CBA;">Links</a> should look like this. You can use the email href property to link emails like this <a style="color: #007CBA; text-decoration: none; border-bottom: dotted; border-width: 1px; border-color: #007CBA;" href="mailto: lsa@umich.edu">lsa@umich.edu</a> and the tel property to link telephone numbers <a style="color: #007CBA; text-decoration: none; border-bottom: dotted; border-width: 1px; border-color: #007CBA;" href="tel:7349369999">734.936.9999</a>.
+                  </p>
+                </td>
+              </tr>
+              <!-- Paragraphs : END -->
+```
+
+#### Salutations: Salutations live in a Paragraph component (as seen above) but are bolded, 18px, and italicized.
+```
+<strong style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 18px; line-height:24px;"><em>Greetings,</em></strong>
+'''
 
 ## Changelog
 ### v1.0
