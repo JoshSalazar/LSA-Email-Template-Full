@@ -116,8 +116,8 @@ Salutations are 18px, bold, and italicized.
 
 #### Salutations: Salutations live in a Paragraph component (as seen above) but are bolded, 18px, and italicized.
 ```
-<strong style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 18px; line-height:24px;"><em>Greetings,</em></strong>
-'''
+      <strong style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 18px; line-height:24px;"><em>Greetings,</em></strong>
+```
 
 ## Changelog
 ### v1.0
