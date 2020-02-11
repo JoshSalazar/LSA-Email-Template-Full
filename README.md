@@ -1,11 +1,11 @@
 # LSA-Email-Template-Full
-This is the single-column email communication template provided by the College of Literature, Science and the Arts department of Marketing and Communications. This template is designed and developed by the department of Marketing and Communications and leverages the [Cerberus fluid email template](https://tedgoas.github.io/Cerberus/).
+This is the single-column email communication template provided by the College of Literature, Science and the Arts department of Marketing and Communications. This template is designed and developed by the department of Marketing and Communications and leverages the [Cerberus fluid email template](https://tedgoas.github.io/Cerberus/). The template is fluid -- not responsive. In other words, the content will scale down for smaller devices but will not reorder or reposition.
 
 This file requires some basic HTML knowledge in order to use. At the very least, you will need to provide a header image, footer image, and body copy in the HTML code.
 
-For design guidelines, refer to the [Style Guide](#style-guide). **Any components not included in this template will require custom development. Please work with the developer and project manager to plan for this prior to designing**.
-
 Images are currently local references. If you want to load the image from a CDN (our web drive, for example) you will need to provide the proper image href properties.
+
+For design guidelines, refer to the [Style Guide](#style-guide). **Any components not included in this template will require custom development. Please work with the developer and project manager to plan for this prior to designing**.
 
 ## Table of Contents
 1. **[Features](#features)**
