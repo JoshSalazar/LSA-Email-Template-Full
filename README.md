@@ -15,10 +15,21 @@ View a preview of the template here: **[Template Preview](http://webapps.lsa.umi
 3. [**Style Guide**](#style-guide)
     1. [**Color**](#color)
     2. [**Typography**](#typography)
-    3. 
-
-
-
+    3. [**Iconography**](#iconography)
+    4. [**Motion**](#motion)
+4. [**Components**](#components)
+    1. [**Button**](#button)
+    2. [**Paragraphs**](#paragraphs)
+       a. [**Salutations**](#salutations)
+       b. [**Lists**](#lists)
+    3. [**Event Details**](#event-details)
+    4. [**Visually Hidden Preview Text**](#visually-hidden-preview-text)
+    5. [**Full Width Image**](#full-width-image)
+    6. [**Header Image**](#header-image)
+    7. [**Footer Image**](#footer-image)
+5. [**Changelog**](#changelog)
+    1. [**v1.0**](#v1.0)
+    
 
 ## Features
 - Single-column layout.
@@ -232,7 +243,7 @@ Though this code technically lives in the HTML, it is coded in such a way that r
 <!-- Preview Text Spacing : END -->
 ```
 
-### Full-Width Image
+### Full Width Image
 
 ```
 <!-- Full-width Image : BEGIN -->
