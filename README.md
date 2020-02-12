@@ -206,7 +206,7 @@ Event Details is a two-column test component used to outline the details of the 
 </tr>
 <!-- Event Details : BEGIN -->
 ```
-![list preview](/Images/Previews/event-details.png)
+![event details preview](/Images/Previews/event-details-preview.png)
 
 ### Visually Hidden Preview Text
 Preview text is a snippet of copy pulled in from the body of your email and typically displayed underneath the sender name and subject line in a subscriber’s inbox.
