@@ -106,6 +106,8 @@ Buttons have a 4px border-radius, line-height of 15px, font-size of 15px, and pa
 <!-- Button : END -->
 ```
 
+![button preview](/Images/Previews/button-preview.png)
+
 ### Paragraphs
 ```
 <!-- Paragraphs : BEGIN -->
@@ -130,6 +132,76 @@ Buttons have a 4px border-radius, line-height of 15px, font-size of 15px, and pa
 Salutations live in a Paragraph component (as seen above) but are bolded, 18px, and italicized.
 ```
 <strong style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 18px; line-height:24px;"><em>Greetings,</em></strong>
+```
+
+#### Lists
+Lists live in a Pargraph component. Each list item should have the required text styling css as seen below.
+```
+<ul>
+  <li style="padding: 0px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 22px; color: #333333;">Unordered lists</li>
+  <li style="padding: 0px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 22px; color: #333333;">should look</li>
+  <li style="padding: 0px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 22px; color: #333333;">like this</li>
+</ul>
+```
+
+### Event Details
+Event Details is a two-column test component used to outline the details of the "Who, what, when, where, why, how" of an event.
+
+```
+<!-- Event Details : BEGIN -->
+<tr>
+  <td style="padding: 20px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 22px; color: #333333;">
+    <p style="margin: 0;">
+      <table width="100%">
+        <tr>
+          <td width="25%" valign="top">
+            <strong style="color: #00274C; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">What:</strong>
+            <br />
+            <br />
+          </td>
+          <td width="75%">
+            <span style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">What is the event?</span>
+            <br />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td width="25%" valign="top">
+            <strong style="color: #00274C; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">When:</strong>
+            <br />
+            <br />
+          </td>
+          <td width="75%">
+            <span style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">Friday, January 24 from 2:00&ndash;4:00 p.m.</span>
+            <br />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td width="25%" valign="top">
+            <strong style="color: #00274C; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">Where:</strong>
+            <br />
+            <br />
+          </td>
+          <td width="75%">
+            <span style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">LSA Building, 500 S. State Street</span>
+            <br />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td width="25%" valign="top">
+            <strong style="color: #00274C; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">For:</strong>
+          </td>
+          <td width="75%">
+            <span style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px;">All LSA students</span>
+          </td>
+        </tr>
+      </table>
+    </p>
+  </td>
+</tr>
+<!-- Event Details : BEGIN -->
 ```
 
 ### Visually Hidden Preview Text
@@ -197,5 +269,3 @@ The header image is constrained to 600px wide. It is recommended the image itsel
 ## Changelog
 ### v1.0
 - Initial file creation. Modified Cerberus fluid email template to coincide with LSA marketing and branding standards. Inbox tested and fully vetted.
-
-
