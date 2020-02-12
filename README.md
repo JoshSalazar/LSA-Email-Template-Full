@@ -86,7 +86,7 @@ HTML emails support .gif image format. View this [live example](http://webapps.l
 ## Components
 
 ### Button
-There should only be one button in the email. This button should be the primary call to action.
+There should only be one button in the email. This button should be the primary call to action and purpose of the email. The button is centered on the email.
 
 Buttons have a 4px border-radius, line-height of 15px, font-size of 15px, and padding of 13px top/bottom 17px left/right.
 ```
