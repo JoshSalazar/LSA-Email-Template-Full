@@ -5,7 +5,9 @@ This file requires some basic HTML knowledge in order to use. At the very least,
 
 Images are currently local references. If you want to load the image from a CDN (our web drive, for example) you will need to provide the proper image href properties.
 
-For design guidelines, refer to the [Style Guide](#style-guide). **Any components not included in this template will require custom development. Please work with the developer and project manager to plan for this prior to designing**.
+For design guidelines, refer to the [Style Guide](#style-guide). 
+
+**Any components not included in this template will require custom development. Please work with the developer and project manager to plan for this prior to designing**.
 
 View a preview of the template here: **[Template Preview](http://webapps.lsa.umich.edu/project/lsa-email/LSA-Email-Template/LSA-Email-Communication-Template-V1-0.html)**
 
@@ -95,6 +97,7 @@ HTML emails support .gif image format. View this [live example](http://webapps.l
 .gifs are best if subtle and not overused.
 
 ## Components
+**Any components not included in this template will require custom development. Please work with the developer and project manager to plan for this prior to designing**.
 
 ### Button
 There should only be one button in the email. This button should be the primary call to action and purpose of the email. The button is centered on the email.
