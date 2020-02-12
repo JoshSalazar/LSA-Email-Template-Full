@@ -127,12 +127,14 @@ Buttons have a 4px border-radius, line-height of 15px, font-size of 15px, and pa
 </tr>
 <!-- Paragraphs : END -->
 ```
+![paragraph preview](/Images/Previews/paragraphs-preview.png)
 
 #### Salutations
 Salutations live in a Paragraph component (as seen above) but are bolded, 18px, and italicized.
 ```
 <strong style="font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 18px; line-height:24px;"><em>Greetings,</em></strong>
 ```
+![salutation preview](/Images/Previews/salutations-preview.png)
 
 #### Lists
 Lists live in a Pargraph component. Each list item should have the required text styling css as seen below.
@@ -143,6 +145,7 @@ Lists live in a Pargraph component. Each list item should have the required text
   <li style="padding: 0px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 22px; color: #333333;">like this</li>
 </ul>
 ```
+![list preview](/Images/Previews/list-preview.png)
 
 ### Event Details
 Event Details is a two-column test component used to outline the details of the "Who, what, when, where, why, how" of an event.
@@ -203,6 +206,7 @@ Event Details is a two-column test component used to outline the details of the 
 </tr>
 <!-- Event Details : BEGIN -->
 ```
+![list preview](/Images/Previews/event-details.png)
 
 ### Visually Hidden Preview Text
 Preview text is a snippet of copy pulled in from the body of your email and typically displayed underneath the sender name and subject line in a subscriber’s inbox.
@@ -234,12 +238,16 @@ Though this code technically lives in the HTML, it is coded in such a way that r
 <!-- Full-width Image : BEGIN -->
 <tr>
   <td style="padding: 0 20px; font-family: Georgia, Garamond, Times New Roman, Times, serif; font-size: 16px; line-height: 22px; color: #333333;">
-    <img src="images/full-width-image.png" width="600" height="auto" alt="Dean Anne Curzan in a library, overlay text reads Happy Holidays."
+    <img src="images/full-width-image.png" width="600" height="auto" alt="alt text here"
                       border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 16px; line-height: 15px; color: #555555; display: block; margin-bottom: 20px;" class="g-img">
   </td>
 </tr>
 <!-- Full-width Image : END -->
 ```
+
+![full-width image preview](/Images/Previews/full-width-image-preview.png)
+
+> *Accessibility* - full-width images should have alt that describes the image
 
 ### Header Image
 The header image is constrained to 600px wide. It is recommended the image itself is 1000px - 1200px wide. This makes the image more crsip once scaled down to 600px.
@@ -253,6 +261,9 @@ The height of the image does not matter.
   </td>
 </tr>
 ```
+![header image preview](/Images/Previews/header-preview.png)
+
+> *Accessibility* - header images, unless purely decorative, should have alt text.
 
 ### Footer Image
 The header image is constrained to 600px wide. It is recommended the image itself is 1000px - 1200px wide. This makes the image more crsip once scaled down to 600px.
@@ -265,6 +276,10 @@ The header image is constrained to 600px wide. It is recommended the image itsel
 </tr>
 <!-- Footer Image, Flush : END -->
 ```
+![footer image preview](/Images/Previews/footer-preview.png)
+
+
+> *Accessibility* - footer images, unless purely decorative, should have alt text.
 
 ## Changelog
 ### v1.0
